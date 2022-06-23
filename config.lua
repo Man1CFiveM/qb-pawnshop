@@ -1,6 +1,7 @@
 Config = {}
 
 Config.PawnLocation = {
+    [1] = {
     coords = vector3(412.34, 314.81, 103.13),
     length = 1.5,
     width = 1.8,
@@ -9,6 +10,7 @@ Config.PawnLocation = {
     minZ = 100.97,
     maxZ = 105.42,
     distance = 3.0
+    },
 }
 
 Config.BankMoney = false -- Set to true if you want the money to go into the players bank
